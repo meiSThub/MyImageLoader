@@ -2,22 +2,22 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/recycler_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".BitmapSizeActivity">
 
-    <Button
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/jpg_wh_xhdpi" />
+
+    <TextView
+        android:id="@+id/tv_size"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="imageList"
-        android:text="照片墙" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:onClick="calBitmapSize"
-        android:text="计算Bitmap大小" />
+        android:layout_marginTop="10dp" />
 </LinearLayout>

@@ -1,4 +1,4 @@
-package com.mei.myimageloader;
+package com.mei.myimageloader.widget;
 
 import android.content.Context;
 import android.util.AttributeSet;
