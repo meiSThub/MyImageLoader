@@ -19,5 +19,14 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:onClick="calBitmapSize"
-        android:text="计算Bitmap大小" />
+        android:text="计算Bitmap大小"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:onClick="bigImage"
+        android:text="长图加载"
+        android:textAllCaps="false" />
 </LinearLayout>

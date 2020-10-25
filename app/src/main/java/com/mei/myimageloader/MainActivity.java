@@ -21,4 +21,8 @@ public class MainActivity extends AppCompatActivity {
     public void calBitmapSize(View view) {
         startActivity(new Intent(this, BitmapSizeActivity.class));
     }
+
+    public void bigImage(View view) {
+        startActivity(new Intent(this, BigImageActivity.class));
+    }
 }
